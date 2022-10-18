@@ -1,3 +1,18 @@
+import 'package:flutter/material.dart';
+// this is the main function of the project; the starting point,
+void main() => runApp(
+      MaterialApp(
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text('yes i am restarting my flutter journey') ,
+          ),
+        )
+      ),
+    );
+
+
+
+
 
 
 
