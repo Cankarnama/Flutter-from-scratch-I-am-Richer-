@@ -1,53 +1,26 @@
 import 'package:flutter/material.dart';
+
 // this is the main function of the project; the starting point,
 void main() => runApp(
       MaterialApp(
         home: Scaffold(
           appBar: AppBar(
-            title: Text('yes i am restarting my flutter journey') ,
+            title: Text(
+              'yes i am restarting myjourney',
+              style: TextStyle(fontWeight: FontWeight.w300),
+            ),
+            backgroundColor: Colors.green[600],
           ),
-        )
+          backgroundColor: Colors.brown[600],
+          body: Center(
+            child: Image(
+              image: NetworkImage(
+                  'https://i.pinimg.com/originals/40/9a/0a/409a0adb02cd256957cb669572b59ebe.jpg'),
+            ),
+          ),
+        ),
       ),
     );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 import 'package:flutter/material.dart';
