@@ -14,8 +14,8 @@ void main() => runApp(
           backgroundColor: Colors.brown[600],
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://i.pinimg.com/originals/40/9a/0a/409a0adb02cd256957cb669572b59ebe.jpg'),
+              image: AssetImage(
+                  'pics/aesthetic.jpg'),
             ),
           ),
         ),
